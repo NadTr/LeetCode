@@ -2,4 +2,5 @@
 The site provides algorithmic problems intended for users to learn and practice programming.
 
 ### Study Plan Followed : 
- - https://leetcode.com/studyplan/top-interview-150/
+ - https://leetcode.com/studyplan/top-interview-150/ in Python3
+ - https://leetcode.com/studyplan/top-sql-50/ in PostgreSQL
