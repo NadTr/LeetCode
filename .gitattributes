@@ -1,0 +1,2 @@
+docs/sql/** -linguist-documentation
+*.sql linguist-language=SQL linguist-detectable=true
