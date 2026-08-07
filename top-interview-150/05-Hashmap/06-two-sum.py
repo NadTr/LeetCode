@@ -1,7 +1,10 @@
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
+        map = {}
         for i in range(len(nums)):
-            other_num = target - nums[i]
-            if other_num in nums[i + 1:]:
-                index = i + 1 + nums[i + 1 :].index(other_num)
-                return [i, index]
+            num2 = target - nums[i] 
+            if num2 in map.keys():
+                return [i, map[num2]]
+            else:
+                map[nums[i]] = i
+        return []
